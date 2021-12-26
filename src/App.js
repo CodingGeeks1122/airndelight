@@ -11,7 +11,7 @@ import {InfoDataFour} from './data/InfoData';
 import { SliderData } from './data/SliderData';
 import GlobalStyle from './globalStyles';
 import ButtonMailto from './components/ButtonMailTo';
-import ContactUs from './components/ContactUs';
+// import ContactUs from './components/ContactUs';
 
 function App() {
 
