@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import { InfoData } from './data/InfoData';
 import { InfoDataTwo } from './data/InfoData';
 import { InfoDataThree } from './data/InfoData';
+import {InfoDataFour} from './data/InfoData';
 import { SliderData } from './data/SliderData';
 import GlobalStyle from './globalStyles';
 import ButtonMailto from './components/ButtonMailTo';
@@ -28,9 +29,10 @@ function App() {
       <InfoSection {...InfoData}/>
       <InfoSection {...InfoDataTwo}/>
       <InfoSection {...InfoDataThree}/>
-      <a class="mailto" href="mailto:airndelight@gmail.com">Mail</a>
+      <InfoSection {...InfoDataFour}/>
+      {/* <a class="mailto" href="mailto:airndelight@gmail.com">Mail</a> */}
       <ButtonMailto label="Write me an E-Mail" mailto="mailto:airndelight@gmail.com" />
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Footer />
     </>
   );

@@ -96,7 +96,7 @@ const Navbar = ({toggle}) => {
                 ))}
             </NavMenu>
             <NavBtn>
-                <Button to="/contact" primary="true">Contact Us</Button>
+                <a class="mailto" color='red' href="mailto:airndelight@gmail.com">Contact Us</a>
             </NavBtn>
         </Nav>
     )

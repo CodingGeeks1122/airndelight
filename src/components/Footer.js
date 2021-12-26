@@ -1,6 +1,6 @@
 import SimpleReactFooter from "simple-react-footer";
 
-const description = "According to wikipedia, the cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family. A cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human contact.";
+const description = "Guaranteed great fun on any budget. Cheap - but safe and all inclusive. Whole tour packages!! Get in touch to know more.";
 const title = "Air&Delight";
 const columns = [
 {
@@ -9,10 +9,6 @@ const columns = [
         {
             name: "About",
             link: "/about"
-        },
-        {
-            name: "Careers",
-            link: "/careers"
         },
         {
             name: "Contact",
@@ -58,12 +54,12 @@ const Footer = () => {
         description={description} 
         title={title}
         columns={columns}
-        linkedin="fluffy_cat_on_linkedin"
+        linkedin=""
         facebook="airndelight"
-        twitter="fluffy_cat_on_twitter"
-        instagram="fluffy_cat_live"
-        youtube="UCFt6TSF464J8K82xeA?"
-        pinterest="fluffy_cats_collections"
+        twitter=""
+        instagram=""
+        youtube="?"
+        pinterest=""
         copyright="airndelight"
         iconColor="black"
         backgroundColor="bisque"

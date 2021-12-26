@@ -1,11 +1,15 @@
 import ImageOne from '../images/dubai.jpg';
 import ImageTwo from '../images/maldives.jpg';
 import ImageThree from '../images/thailand.jpg';
+import ImageFour from '../images/scooba.jpg';
+import ImageFive from '../images/desert.jpg';
+import ImageSix from '../images/offroad.jpg';
+import ImageSeven from '../images/skydiving.jpg';
 
 export const SliderData = [
     {
         title: 'Luxury City, Dubai',
-        price: '$4,280,000',
+        price: 'Contact Us to know more',
         path: '/homes',
         label: 'View Home',
         image: ImageOne,
@@ -13,7 +17,7 @@ export const SliderData = [
     },
     {
         title: 'Maldives',
-        price: '$2,700,000',
+        price: 'Contact Us to know more',
         path: '/homes',
         label: 'View Home',
         image: ImageTwo,
@@ -21,26 +25,42 @@ export const SliderData = [
     },
     {
         title: 'Thailand',
-        price: '$1,280,000',
+        price: 'Contact Us to know more',
         path: '/homes',
         label: 'View Home',
         image: ImageThree,
         alt: 'City'
     },
     {
-        title: 'Luxury City, Dubai',
-        price: '$4,280,000',
+        title: 'Adventures',
+        price: 'Contact Us to know more',
         path: '/homes',
         label: 'View Home',
-        image: ImageOne,
+        image: ImageFour,
         alt: 'City'
     },
     {
         title: 'Luxury City, Dubai',
-        price: '$4,280,000',
+        price: 'Contact Us to know more',
         path: '/homes',
         label: 'View Home',
-        image: ImageOne,
+        image: ImageFive,
+        alt: 'City'
+    },
+    {
+        title: 'Adventures',
+        price: 'Contact Us to know more',
+        path: '/homes',
+        label: 'View Home',
+        image: ImageSix,
+        alt: 'City'
+    },
+    {
+        title: 'Adventures',
+        price: 'Contact Us to know more',
+        path: '/homes',
+        label: 'View Home',
+        image: ImageSeven,
         alt: 'City'
     }  
 ];
