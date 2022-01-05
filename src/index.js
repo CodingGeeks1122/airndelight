@@ -9,6 +9,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <App />
+      {/* <Switch>
+        <Route exact path="/owner"></Route>
+      </Switch> */}
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
